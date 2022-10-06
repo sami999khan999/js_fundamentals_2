@@ -21,31 +21,38 @@
 
 // lambda calculus or lambda function expression javascript. // line (419-429)
 
+// objects (
+// object literal syntex. // line (469-488)
+// finnding proparty // line (493-542)
+// dynamically sentence. // line (546-559)
+// this kyeword (this). // line (562-586)
+// )
+
 //============================================================================================================================================//
 
-// use strict //
+// // use strict
 
 "use strict";
 
-// use strict - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables. //
+// // use strict - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables. //
 
-// const private = 20; // not posible when using "ues strict" beacouse private is kye word //
+// const private = 20; // // not posible when using "ues strict" beacouse private is kye word //
 
 // console.log(private);
 
 //============================================================================================================================================//
 
-// function //
+// // function
 
-// function - A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output.//
+// // function - A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output.//
 
 //============================================================================================================================================//
 
-// function declaration
+// // function declaration
 
 // function joinTheClass() {
 
-// function name - function name should be relaten to the function //
+// // function name - function name should be relaten to the function //
 
 //   console.log("Pc on koro");
 //   console.log("Google chrome on koro");
@@ -54,30 +61,28 @@
 //   console.log("Class a join koro");
 // }
 
-// joinTheClass(); // call or run or invoke //
+// joinTheClass(); // // call or run or invoke //
 
 // joinTheClass();
 
-// we can call the function from wherever we want. //
+// // we can call the function from wherever we want. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // function addTwoNumbers(num1, num2) {
+//   // parameter - function parameter are the names that we put inside the second bracate of the function. //
 
-// parameter - function parameter are the names that we put inside the second bracate of the function. //
+//   const sum = num1 + num2;
+//   return sum;
 
-// const sum = num1 + num2;
-// return sum;
-
-// return - return is the value, that a function returns to the calling function when it completes the task. //
-
+//   // return - return is the value, that a function returns to the calling function when it completes the task. //
 // }
 
 // console.log(addTwoNumbers(10, 20));
 
-// argument - function argument is the value that sent to the function when its being called. //
+// // argument - function argument is the value that sent to the function when its being called. //
 
-// the same function can be called multiple times with diffrent argument. //
+// // the same function can be called multiple times with diffrent argument. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -97,7 +102,7 @@
 //   const sum = n1 + n2 + n3;
 //   console.log(sum);
 
-// if we (console.log) inside the function block then we don't have to return it. //
+// // if we (console.log) inside the function block then we don't have to return it. //
 
 // }
 
@@ -105,20 +110,20 @@
 
 //============================================================================================================================================//
 
-// function expression
+// // function expression
 
-// function expression - A function expression is very similar to and has almost the same syntax as a function declaration (see function statement for details). The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions. //
+// // function expression - A function expression is very similar to and has almost the same syntax as a function declaration (see function statement for details). The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// console.log(juiceFactory(10, 15)); // nat posible //
+// console.log(juiceFactory(10, 15)); // // nat posible //
 
-// a function expration can not not be accessed before declaration. //
+// // a function expration can not not be accessed before declaration. //
 
 // const juiceFactory = function (apple, oranges) {
 
-// in function expration we can set the function in a variable. //
-// the variable name works as the function name. //
+// // in function expration we can set the function in a variable. //
+// // the variable name works as the function name. //
 
 //   const juice = (apple * oranges) / 2;
 //   return `${juice} Joice is sready using ${apple} apples and ${oranges} oranges.`;
@@ -137,16 +142,16 @@
 
 //============================================================================================================================================//
 
-// arrow function
+// // arrow function
 
-// arrow function - An arrow function expression is a compact alternative to a traditional function expression, but is limited and can't be used in all situations. //
+// // arrow function - An arrow function expression is a compact alternative to a traditional function expression, but is limited and can't be used in all situations. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // const ageCalculator = (birthYear) => 2022 - birthYear;
 
-// in arrow function we will have to remove the word (function) and place the arrow symbol (=>) between parameter and process. //
-// if the function has complited in just one line, then we don't have to return it. //
+// // in arrow function we will have to remove the word (function) and place the arrow symbol (=>) between parameter and process. //
+// // if the function has complited in just one line, then we don't have to return it. //
 
 // console.log(ageCalculator(2003));
 
@@ -157,7 +162,7 @@
 //   return `${pizza} pizzais ready for everyone`;
 // };
 
-// when using second brackets, you have to return the statement. //
+// // when using second brackets, you have to return the statement. //
 
 // console.log(pizzaMaker(1, 2, 3));
 
@@ -171,8 +176,8 @@
 
 // const heroMaker = (age, skill) => {
 //   if (age > 10 && skill) {
-// and (&&) means, both statments needs to be true //
-// or (||) means, only a single statments needs to be true. //
+//     // and (&&) means, both statments needs to be true //
+//     // or (||) means, only a single statments needs to be true. //
 //     return "You can be a super hero";
 //   } else {
 //     return "You are a child";
@@ -202,9 +207,9 @@
 
 //============================================================================================================================================//
 
-// function calling function
+// // function calling function
 
-// function calling function - The Function which calls another Function is called Calling Function and function which is called by another Function is call Called Function.
+// // function calling function - The Function which calls another Function is called Calling Function and function which is called by another Function is call Called Function. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -212,9 +217,9 @@
 //   return fruit * 4;
 // }
 
-// froutCutter function is colled by the juiceMaker function //
-// froutCutter is called function and juiceMaker is calling function. //
-// juiceMaker function's parameter sets as the argument for the froutCutter function. //
+// // froutCutter function is colled by the juiceMaker function //
+// // froutCutter is called function and juiceMaker is calling function. //
+// // juiceMaker function's parameter sets as the argument for the froutCutter function. //
 
 // function juiceMaker(apple, oranges) {
 //   const applePieces = froutCutter(apple);
@@ -235,7 +240,7 @@
 //   return `${ramState} and ${cpuState}`;
 // }
 
-// multiple function can be colled in a function. //
+// // multiple function can be colled in a function. //
 
 // console.log(technicalTest(2400, 3.6));
 
@@ -249,37 +254,36 @@
 
 //============================================================================================================================================//
 
-// array
+// // array
 
-// array - array is a single variable that is used to store different elements. It is often used when we want to store list of elements and access them by a single variable. //
+// // array - array is a single variable that is used to store different elements. It is often used when we want to store list of elements and access them by a single variable. //
 
 //============================================================================================================================================//
 
-// basic array
+// // basic array
 
-// const friends = ["shohan", "badhon", "eklas", "nasim"]; // literal syntax. //
+// const friends = ["shohan", "badhon", "eklas", "nasim"]; // // literal syntax. //
 // console.log(friends);
 
-// third bracate is used for declaraing an array. //
+// // third bracate is used for declaraing an array. //
 
-// coma (,) is used to separate two elements. //
+// // coma (,) is used to separate two elements. //
 
-// the first element of an array is at index 0, the second is at index 1, and so on — and the last element is at the value of the array's length property minus 1. //
+// // the first element of an array is at index 0, the second is at index 1, and so on — and the last element is at the value of the array's length property minus 1. //
 
-// array length - array length is the unmber of elements. //
+// // array length - array length is the unmber of elements. //
 
 //============================================================================================================================================//
 
-// array literal syntex and array function.
+// // array literal syntex and array function.
 
 // const years = [1990, 2000, 2010, 2020]; // literal syntax. //
 
-//--------------------------------------------------------------------------------------------------------------------------------------------//
+// const years2 = new Array(1990, 2000, 2010, 2020); // array function. //
+// console.log(years2);
 
-// // const years2 = new Array(1990, 2000, 2010, 2020); // array function. //
-// // console.log(years2);
 // // array function is declared by (new array). //
-// // use first bracate to declare array function. //
+// // // use first bracate to declare array function. //
 
 //============================================================================================================================================//
 
@@ -310,10 +314,17 @@
 
 // // array length
 
+// // array length - length property returnd the number of elements in an array. //
+
 // const numbers = [2, 4, 6, 8];
 // console.log(numbers.length);
+// console.log(numbers.length - 1);
 
-// // array length - length property returnd the number of elements in an array. //
+// // length-1 retuens the last element's index. //
+
+// console.log(numbers[numbers.length - 1]);
+
+// // array name (number).length-1 will return the last element. length-2 will retyrn the secind last element. //
 
 //============================================================================================================================================//
 
@@ -323,6 +334,8 @@
 // // pop - pop mathod removes an element to the end of an array. //
 // // unshift - unshift mathod adds a new element to the start of an array. //
 // // shift - shift mathod removes an element to the start of an array. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
 
 // const friends = ["lufi", "zoro", "nami", "usapp"];
 
@@ -396,6 +409,16 @@
 
 //============================================================================================================================================//
 
+// // reassign or muted array
+
+// // muted array - we can reassing a element to an existing element or add a new element. //
+
+// const reassign = [2, 4, 6, 8, 10, 12];
+// reassign[reassign.length] = 14;
+// reassign[3] = 18;
+// console.log(reassign);
+
+//============================================================================================================================================//
 // // currying function
 
 // // currying function - It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence. //
@@ -440,9 +463,9 @@
 
 // // primitive and non-primitive data type - primitive data types are number, string, boolean, NULL, Infinity and symbol. Non-primitive data types is the object. The JavaScript arrays and functions are also objects. //
 
-//--------------------------------------------------------------------------------------------------------------------------------------------//
+//============================================================================================================================================//
 
-// object literal syntex.
+// // object literal syntex.
 
 // const student = {
 //   // use second bracket to declare an object. //
@@ -463,23 +486,103 @@
 
 // console.log(student);
 
-//--------------------------------------------------------------------------------------------------------------------------------------------//
+//============================================================================================================================================//
 
 // // finnding proparty
 
-// // ther are two methods to find proparty (dot method , bracket notation)
+// // ther are two methods to find proparty (dot method , bracket notation method)
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
-// // dot and bracket notation methods
+// // dot methods
+
+// // dot methods - a property is accessed by giving the host object's name, followed by a period (or dot), followed by the property name. //
 
 // const student = {
 //   firstName: "Arafat",
 //   lastName: "Rahman",
-//   age: 1996 - 2022,
-//   fob: "Programmer",
+//   age: 2022 - 1996,
+//   job: "Programmer",
 //   friends: ["Rohim", "Korim", "Jamal", "Kamal"],
 //   isGoodAtGames: true,
 // };
 
-// console.log(student);
+// console.log(student.firstName);
+// console.log(student.lastName);
+// console.log(student.age);
+// console.log(student.job);
+// console.log(student.friends);
+// console.log(student.friends[2]);
+// // we can also console.log individual element of an array //
+// console.log(student.isGoodAtGames);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // bracket notation method
+
+// // bracket notation is another way to access a property of an object. To use bracket notation, write the name of the object, followed by brackets []. //
+
+// const student = {
+//   firstName: "Arafat",
+//   lastName: "Rahman",
+//   age: 2022 - 1996,
+//   job: "Programmer",
+//   friends: ["Rohim", "Korim", "Jamal", "Kamal"],
+//   isGoodAtGames: true,
+// };
+
+// // the property name needs to written in cotation. //
+
+// console.log(student["firstName"]);
+
+// // we cam write the proparty name dynamically. //
+
+// console.log(student["last" + "Name"]);
+// console.log(student["is" + "Good" + "At" + "Games"]);
+
+//============================================================================================================================================//
+
+// // dynamically sentence.
+
+// const student = {
+//   firstName: "Arafat",
+//   lastName: "Rahman",
+//   age: 2022 - 1996,
+//   job: "Programmer",
+//   friends: ["Rohim", "Korim", "Jamal", "Kamal"],
+//   isGoodAtGames: true,
+// };
+
+// console.log(
+//   `${student.firstName} ${student.lastName} is a ${student.job}, He is ${student.age} years old. He has ${student.friends.length} friends. ${student.friends[1]} is his best friend.`
+// );
+
+//============================================================================================================================================//
+
+// // this kyeword (this)
+
+// // this - In JavaScript, the 'this' keyword refers to an object. Which object depends on how 'this' is being invoked (used or called).The 'this' keyword refers to different objects depending on how it is used. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const student = {
+//   firstName: "Arafat",
+//   lastName: "Rahman",
+//   birthYear: 1996,
+
+//   // we can't use a property as a parameater //
+
+//   calcAge: function () {
+//     return 2022 - this.birthYear;
+//     // 'this' gets the value from the property. //
+//   },
+
+//   fullName() {
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+// };
+
+// console.log(student.calcAge());
+// console.log(student.fullName());
+
+//============================================================================================================================================//
