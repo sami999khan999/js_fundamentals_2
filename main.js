@@ -12,22 +12,25 @@
 // array literal syntex and array function. // line (266-273)
 // finding elements in array by index. // line (277-295)
 // array length // line (299-304)
-// push ,  pop , unshift , shift. // line (308-324)
+// push ,  pop , unshift , shift method. // line (308-324)
 // finding index by indexOf(). // line (328-350)
 // finding element by includs(). // line (354-374)
 // )
 
 // currying function. // line (394-415)
-
 // lambda calculus or lambda function expression javascript. // line (419-429)
 
 // objects (
 // object literal syntex. // line (469-488)
-// finnding proparty // line (493-542)
-// dynamically sentence. // line (546-559)
-// this kyeword (this). // line (562-586)
+// finnding proparty (dot method , bracket notation method) // line (493-542)
+// dynamic sentence. // line (546-559)
+// "this" kyeword (this). // line (562-586)
 // )
 
+// loop (for-Loop / while-loop)
+
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
 // // use strict
@@ -36,10 +39,12 @@
 
 // // use strict - You can use strict mode in all your programs. It helps you to write cleaner code, like preventing you from using undeclared variables. //
 
-// const private = 20; // // not posible when using "ues strict" beacouse private is kye word //
+// const private = 20; // // not posible when using "ues strict" beacouse "private" is kye word //
 
 // console.log(private);
 
+//============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //============================================================================================================================================//
 
 // // function
@@ -253,6 +258,8 @@
 // }
 
 //============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
 
 // // array
 
@@ -328,7 +335,7 @@
 
 //============================================================================================================================================//
 
-// // push ,  pop , unshift , shift
+// // push ,  pop , unshift , shift method
 
 // // push - push mathod adds a new element to the end of an array. //
 // // pop - pop mathod removes an element to the end of an array. //
@@ -413,12 +420,15 @@
 
 // // muted array - we can reassing a element to an existing element or add a new element. //
 
-// const reassign = [2, 4, 6, 8, 10, 12];
-// reassign[reassign.length] = 14;
-// reassign[3] = 18;
-// console.log(reassign);
+// const evenNumbers = [2, 4, 6, 8, 10, 12];
+// evenNumbers[evenNumbers.length] = 14;
+// evenNumbers[3] = 18;
+// console.log(evenNumbers);
 
 //============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
 // // currying function
 
 // // currying function - It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence. //
@@ -456,6 +466,8 @@
 // console.log(multiPro(2)(4)(6)(8)(10));
 
 //============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
 
 // // objects
 
@@ -488,7 +500,7 @@
 
 //============================================================================================================================================//
 
-// // finnding proparty
+// // finnding proparty (dot method , bracket notation method)
 
 // // ther are two methods to find proparty (dot method , bracket notation method)
 
@@ -542,7 +554,7 @@
 
 //============================================================================================================================================//
 
-// // dynamically sentence.
+// // dynamic sentence.
 
 // const student = {
 //   firstName: "Arafat",
@@ -559,7 +571,7 @@
 
 //============================================================================================================================================//
 
-// // this kyeword (this)
+// // "this" kyeword (this)
 
 // // this - In JavaScript, the 'this' keyword refers to an object. Which object depends on how 'this' is being invoked (used or called).The 'this' keyword refers to different objects depending on how it is used. //
 
@@ -586,3 +598,11 @@
 // console.log(student.fullName());
 
 //============================================================================================================================================//
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//============================================================================================================================================//
+
+// // loop (for-Loop / while-loop)
+
+// // loops - loops are handy, if you want to run the same code over and over again, each time with a different value. //
+
+// ther are five diffrent types of loops in javascript.
