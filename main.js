@@ -32,7 +32,8 @@
 // continue. // line (718-743)
 // break. // line (748-771)
 // loop inside a loop. // line (776-783)
-// star pattarn using for loop. // line ()
+// star pattarn using for loop. // line (790-840)
+// basic while loop. // line (845-941)
 // )
 
 //============================================================================================================================================//
