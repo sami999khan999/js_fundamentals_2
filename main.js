@@ -27,7 +27,13 @@
 // "this" kyeword (this). // line (562-586)
 // )
 
-// loop (for-Loop / while-loop)
+// loop (for-Loop / while-loop)(
+// basic for loop. // line (614-713)
+// continue. // line (718-743)
+// break. // line (748-771)
+// loop inside a loop. // line (776-783)
+// star pattarn using for loop. // line ()
+// )
 
 //============================================================================================================================================//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -605,4 +611,330 @@
 
 // // loops - loops are handy, if you want to run the same code over and over again, each time with a different value. //
 
-// ther are five diffrent types of loops in javascript.
+// // ther are five diffrent types of loops in javascript (while, do…while, for, for…in, for…of). but fot loop and while loop are used in most cases. //
+
+//============================================================================================================================================//
+
+// // basic for loop
+
+// // for loop - a for loop repeats until a specified condition evaluates to false. the loop will continue as long as conditions are true. //
+
+// // for loop requires three things - (1) initializer, (2) condition, (3) iteration. //
+
+// // initializer - initializer declaration evaluated once before the loop begins. Typically used to initialize a counter variable. //
+// // condition - a codition to be evaluated before each loop iteration. //
+// // iteration - iteration is a counter. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// for (let i = 1; i <= 20; i++) {
+//   // "let i = 1" is a initializer. "i" is a variabele name, we can use a differnt name if we want . this means the loop will start from 1. //
+//   // "i <= 20" is a condition. this means the loop will continue upto 20. //
+//   // "i++" the iteration count. this means the value of "i" wiil increas by one after each loop. //
+//   console.log(i);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// for (let a = -100; a <= 10; a++) {
+//   console.log(a);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// for (let i = 0; i <= 1000; i += 10) {
+//   console.log(i);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// for (let i = 100; i >= 0; i--) {
+//   console.log(i);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // array for loop
+
+// const sabrinaArray = [
+//   "Sabrina",
+//   "Ratul",
+//   "iMac",
+//   "iPhan 16",
+//   "programmer",
+//   2022 - 1996,
+//   ["Tanvir", "Mian", "Rina", "Parina"],
+//   true,
+//   "Dancer",
+// ];
+
+// for (let i = 0; i < sabrinaArray.length; i++) {
+//   console.log(sabrinaArray[i]);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // array sum using for loop
+
+// const numbers = [10, 12, 43, 24, 75, 33, 85, 22, 29];
+
+// let sum = 0;
+
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// console.log(sum);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // duplicating an array using far loop
+
+// const arr = [12, "a", 16, true, 18, false, "b"];
+
+// console.log(arr);
+
+// const arr2 = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   arr2.push(arr[i]);
+// }
+
+// console.log(arr2);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // calculating age using for loop
+
+// const birthYear = [1995, 1999, 2003, 1992, 2000];
+
+// const ages = [];
+
+// for (let i = 0; i < birthYear.length; i++) {
+//   ages.push(2022 - birthYear[i]);
+// }
+
+// console.log(ages);
+
+//============================================================================================================================================//
+
+// // continue
+
+// // continue - the continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop. //
+
+// // continue method skips specefic element. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const arr = [12, "a", 16, true, 18, false, "b"];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (typeof arr[i] === "string") continue;
+
+//   // if arr element is string the the continuer method will skip it. //
+
+//   console.log(arr[i], typeof arr[i]);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const arr = [12, "a", 16, true, 18, false, "b"];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (typeof arr[i] === "boolean") continue;
+//   console.log(arr[i]);
+// }
+
+//============================================================================================================================================//
+
+// // break
+
+// // break - if a specified condition occurs, then the berak method will end the loop. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const arr = [12, "a", 16, true, 18, false, "b"];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (typeof arr[i] === "string") break;
+
+//   // if arr element is string the the break method will end the loop. //
+
+//   console.log(arr[i], typeof arr[i]);
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// const arr = [12, "a", 16, true, 18, false, "b"];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (typeof arr[i] === "boolean") break;
+//   console.log(arr[i]);
+// }
+
+//============================================================================================================================================//
+
+// // loop inside a loop
+
+// // nested Loop is a loop that is present inside another loop. //
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`Step -------- ${i}`);
+//   for (let j = 1; j <= i; j++) {
+//     console.log(`Run -------- ${j}`);
+//   }
+// }
+
+//============================================================================================================================================//
+
+// // star pattarn using for loop
+
+// // star pattern - star pattern is used to test different programming skills like looping, conditional statements, etc. //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // square star pattern
+
+// // the internal loop will run for 'n' number of times which will print starts in a row and a newline at the end of the loop (\n) while the outer loop will run the internal loop for 'n' number of times which will print starts in a columns. //
+
+// let n = 5;
+// let star = "";
+
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= n; j++) {
+//     star += "*";
+//   }
+//   star += "\n";
+//   // add "\n" character to add a new line to a string. //
+// }
+// console.log(star);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // left triangle pattern
+
+// let n = 5;
+// let star = "";
+
+// for (let i = 1; i <= n; i++) {
+//   for (let j = 1; j <= i; j++) {
+//     star += "*";
+//   }
+//   star += "\n";
+// }
+// console.log(star);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // down triangle pattern
+
+// let n = 5;
+// let star = "";
+
+// for (let i = 1; i <= n; i++) {
+//   for (let j = i; j <= n; j++) {
+//     star += "*";
+//   }
+//   star += "\n";
+// }
+// console.log(star);
+
+//============================================================================================================================================//
+
+// // basic while loop
+
+// // the while statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement. //
+
+// // for loop requires three things - (1) initializer, (2) condition, (3) iteration. //
+
+// // initializer - initializer declaration evaluated once before the loop begins. Typically used to initialize a counter variable. initializer  have to be declare before/outside the while loop block. //
+// // condition - a codition to be evaluated before each loop iteration. //
+// // iteration - iteration is a counter. iteration count goes after console.log(). //
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// let i = 100;
+// while (i >= 1) {
+//   console.log(i);
+//   i--;
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // array for loop
+
+// const sabrinaArray = [
+//   "Sabrina",
+//   "Ratul",
+//   "iMac",
+//   "iPhan 16",
+//   "programmer",
+//   2022 - 1996,
+//   ["Tanvir", "Mian", "Rina", "Parina"],
+//   true,
+//   "Dancer",
+// ];
+
+// let i = 0;
+// while (i < sabrinaArray.length) {
+//   console.log(sabrinaArray[i]);
+//   i++;
+// }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // array sum using while loop
+
+// const numbers = [10, 12, 43, 24, 75, 33, 85, 22, 29];
+
+// let sum = 0;
+// let i = 0;
+
+// while (i < numbers.length) {
+//   sum += numbers[i];
+//   i++;
+// }
+
+// console.log(sum);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // duplicating an array using while loop
+
+// const arr = [12, "a", 16, true, 18, false, "b"];
+
+// console.log(arr);
+
+// const arr2 = [];
+// let i = 0;
+
+// while (i < arr.length) {
+//   arr2.push(arr[i]);
+//   i++;
+// }
+
+// console.log(arr2);
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
+// // calculating age using while loop
+
+// const birthYear = [1995, 1999, 2003, 1992, 2000];
+
+// const ages = [];
+// let i = 0;
+
+// while (i < birthYear.length) {
+//   ages.push(2022 - birthYear[i]);
+//   i++;
+// }
+
+// console.log(ages);
