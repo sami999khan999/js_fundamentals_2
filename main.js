@@ -62,6 +62,10 @@
 
 // // function declaration
 
+// // function declaration - a function created with a function declaration is a Function object and has all the properties, methods and behavior of Function objects.
+
+//--------------------------------------------------------------------------------------------------------------------------------------------//
+
 // function joinTheClass() {
 
 // // function name - function name should be relaten to the function //
