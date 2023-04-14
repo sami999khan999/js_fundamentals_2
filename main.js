@@ -62,7 +62,7 @@
 
 // // function declaration
 
-// // function declaration - a function created with a function declaration is a Function object and has all the properties, methods and behavior of Function objects.
+// // function declaration - a function created with a function declaration is a Function object and has all the properties, methods and behavior of Function objects. //
 
 //--------------------------------------------------------------------------------------------------------------------------------------------//
 
@@ -470,7 +470,7 @@
 
 //============================================================================================================================================//
 
-// // lambda calculus or lambda function expression javascript
+// // lambda calculus or lambda function expression
 
 // // lambda function - the λ-calculus is a formal system for expressing and computing functions with itself reduction rules and syntax. The system is based on expressions (or λ-terms). An expression may correspond to a variable, an abstraction or a function application. //
 
@@ -478,7 +478,7 @@
 
 // const multiPro = (a) => (b) => (c) => (x) => (y) => a * b * c * x * y;
 
-// // lambda function is almost similar to curring function. //
+// // lambda function is similar to curring function. //
 
 // console.log(multiPro(2)(4)(6)(8)(10));
 
